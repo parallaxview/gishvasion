@@ -382,7 +382,7 @@ var TouchControls = function() {
     var yLoc = Game.height - unitWidth;
     this.drawSquare(ctx,gutterWidth,yLoc,"\u25C0", Game.keys['left']);
     this.drawSquare(ctx,unitWidth + gutterWidth,yLoc,"\u25B6", Game.keys['right']);
-    this.drawSquare(ctx,4*unitWidth,yLoc,"CLAIM",Game.keys['claim']);
+    this.drawSquare(ctx,20*unitWidth,yLoc,"CLAIM",Game.keys['claim']);
 
     ctx.restore();
   };
